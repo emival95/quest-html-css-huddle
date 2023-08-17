@@ -26,8 +26,8 @@ This is a solution to the [Huddle landing page with single introductory section 
 <img src="./src/images/mobile-design.jpg" />
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://emival95.github.io/quest-html-css-huddle/]
+
 
 ## Meu processo
 
