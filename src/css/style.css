@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url(../images/bg-desktop.svg ) no-repeat center  ;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.container{
+    display: flex;
+    max-width: 1440px;
+    margin: 30px   ;
+}
+.container .informacoes{
+    margin: 20px;
+    padding: 10px;
+}
+
+.container .informacoes h2{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 43px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+ .container .informacoes p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    color: #ffffff;
+
+}
+
+.informacoes .btn{
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+    font-size: 15px;
+    margin: 0 20px;
+    padding: 10px 55px;
+    transition: 0.3s ease-in-out;
+}
+
+.informacoes .btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #ffffff;
+}
+
+.social{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.social a{
+    display: flex;
+    margin: 20px;
+    border: 2px solid;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    color: white;
+    height: 45px;
+    width: 45px;
+}
+
+.social i{
+    font-size: 25px;
+}
+
+.social a:hover{
+    color: hsl(300, 69%, 71%);
+}

@@ -1,0 +1,57 @@
+@media(max-width: 425px){
+    header img{
+        position: absolute;
+        align-items: center;
+    }
+
+    body{
+        background-image: url(../images/bg-mobile.svg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px;
+        padding: 50px;
+    }
+
+    .informacoes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px
+    }
+
+    .informacoes h2{
+        font-size: 30px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .informacoes p{
+        font-size: 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .informacoes botao{
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        display: block;
+    }
+
+    .social{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+}
